@@ -1,0 +1,25 @@
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div .btn .aboutBtn {
+    cursor: pointer;
+    background-color: lightblue;
+    border-radius: 100px;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-weight: bolder;
+   
+}
+
+div .btn .aboutBtn:hover {
+    transform: scale(1.1);
+    transition: transform 0.1s ease-in;
+    color: lightblue;
+    background-color: white;
+    box-shadow: 2px 2px #4e4e4e;
+}

@@ -1,0 +1,55 @@
+.home_Container {
+    display: grid;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.greetings {
+    margin: auto;
+    position: relative;
+    top: 10px;
+    max-width: 900px;
+}
+
+.greetings h1 {
+    justify-self: center;
+    word-spacing: 5px;
+    font-size: 3rem;
+    height: 40px;
+
+}
+
+
+.descrip {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+.greetings .descrip p {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .greetings {
+        top: 0;
+        padding: 20px;
+        
+    }
+
+    .greetings h1 {
+        font-size: 2rem;
+    }
+
+    .descrip {
+        margin-bottom: 20px;
+    }
+
+    .greetings .descrip p {
+        font-size: 1rem;
+        margin-top: 45px;
+    }
+}
